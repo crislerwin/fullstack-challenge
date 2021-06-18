@@ -26,7 +26,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <Container>
-        <Text>Welcome to React Native!</Text>
+        <Text>Welcome to pega na minha rola</Text>
         <Text>To get started, edit App.js</Text>
         <Text>{instructions}</Text>
       </Container>
