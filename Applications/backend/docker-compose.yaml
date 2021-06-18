@@ -4,7 +4,7 @@ services:
   app:
     build: .
     entrypoint: ./.docker/entrypoint.sh
-    container_name: crud-mvc-api
+    container_name: fullstack-api
     ports:
       - 3000:3000
     volumes:
@@ -18,7 +18,7 @@ services:
       - .docker/dbdata:/var/lib/postgresql/data
     environment:
       - POSTGRES_PASSWORD=root
-      - POSTGRES_DB=crud-mvc-api
+      - POSTGRES_DB=fullstack-api
 
   pgadmin:
     image: dpage/pgadmin4
