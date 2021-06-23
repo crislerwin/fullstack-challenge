@@ -5,6 +5,8 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { Books } from './models/books.model';
 
+import { BookController } from './controllers/book/book.controller';
+
 @Module({
   imports: [
     ConfigModule.forRoot(),
@@ -19,7 +21,7 @@ import { Books } from './models/books.model';
     }),
     TypeOrmModule.forFeature([Books]),
   ],
-  controllers: [AppController],
+  controllers: [AppController, BookController],
   providers: [AppService],
 })
 export class AppModule {}
