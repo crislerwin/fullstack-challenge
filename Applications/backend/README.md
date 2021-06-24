@@ -1,12 +1,14 @@
 # Fullstack-Challenge API
 
-## This API had made with:
+## This API was made with:
 
+- NestJS
 - Typescript
 - Docker
 - PostgreSQL
+- PGAdmin4
 
-## To run you need to have installed **Docker** and **Docker Compose** on WSL or some Linux Distro
+## To run you need to have installed the **Docker** Runtime' and **Docker Compose** on WSL or some Linux Distro
 
 On folder **backend** run:
 
