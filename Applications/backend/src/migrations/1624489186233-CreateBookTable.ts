@@ -15,7 +15,7 @@ export class CreateBookTable1624489186233 implements MigrationInterface {
           },
           {
             name: 'name',
-            type: 'string',
+            type: 'varchar',
           },
           {
             name: 'author',
