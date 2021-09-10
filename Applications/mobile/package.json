@@ -12,6 +12,7 @@
     "adb": "adb connect 192.168.100.9:5555"
   },
   "dependencies": {
+    "@types/styled-components-react-native": "^5.1.1",
     "react": "17.0.2",
     "react-native": "0.65.1",
     "styled-components": "^5.3.1"
