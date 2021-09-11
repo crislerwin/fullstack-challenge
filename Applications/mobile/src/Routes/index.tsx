@@ -11,11 +11,11 @@ export const Routes: React.FC = () => {
       <Tab.Navigator
         screenOptions={({route}) => ({
           tabBarIcon: ({focused, color, size}) => {
-            let iconName: any;
+            let iconName: string | any;
             if (route.name === 'Home') {
-              iconName = focused ? 'home' : 'home-outline';
-            } else if (route.name === 'Profile') {
-              iconName = focused ? 'user' : 'user-outline';
+              iconName = focused ? 'home' : 'home';
+            } else if (route.name === 'Add') {
+              iconName = focused ? 'add' : 'add';
             }
             return <Feather name={iconName} size={size} color={color} />;
           },
