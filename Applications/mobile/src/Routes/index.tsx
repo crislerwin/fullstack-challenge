@@ -11,7 +11,7 @@ export const Routes: React.FC = () => {
       <Tab.Navigator
         screenOptions={({route}) => ({
           tabBarIcon: ({focused, color, size}) => {
-            let iconName: string | any;
+            let iconName: any;
             if (route.name === 'Home') {
               iconName = focused ? 'home' : 'home-outline';
             } else if (route.name === 'Profile') {
@@ -22,6 +22,7 @@ export const Routes: React.FC = () => {
           tabBarActiveTintColor: 'black',
           tabBarInactiveTintColor: 'gray',
           headerShown: false,
+          tabBarHideOnKeyboard: true,
           
         })}
         
